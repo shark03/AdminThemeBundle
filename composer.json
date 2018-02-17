@@ -31,6 +31,10 @@
     "require-dev": {
         "phpspec/prophecy": "^1.6"
     },
+    "repositories" : [{
+        "type" : "vcs",
+        "url" : "git@github.com:shark03/AdminThemeBundle.git"
+    }],
     "suggest" : {
         "knplabs/knp-menu-bundle" : "Allows easy menu integration."
     },
